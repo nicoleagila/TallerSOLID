@@ -16,6 +16,7 @@ public class Book {
 	String category;
 	float price;
 	boolean state;
+        SearchBy busqueda;
 	
 	public Book(String title, String author, String category,float price) {
 		this.title = title;
@@ -38,11 +39,7 @@ public class Book {
 	void setAuthor(String author) {
 		this.author = author;
 	}
-	void searchBook() {
-		/*
-		 * Search a book for author or title or category
-		 */
-	}
-
+        
+        
     
 }
