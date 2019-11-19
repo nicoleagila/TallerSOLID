@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class StoreBook {
     private ArrayList<Book> books;
-	private Book book;
+    private Book book;
 	
 	
 	public StoreBook() {
